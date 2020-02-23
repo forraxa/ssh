@@ -1,7 +1,7 @@
 
 ## ssh 
 
-SSH viene instalado en linux.
+SSH viene instalado en linux y mac, para windows se puede utilizar putty.
 
 #### Instalar SSH
 ```
@@ -12,7 +12,6 @@ apt-get install openssh-server
 ```
 systemctl enable ssh
 ````
-El cliente SSH en linux y Mac ya viene por default y en windows se puede utilizar putty.
 
 #### Conectarse con servidor por SSH
 
