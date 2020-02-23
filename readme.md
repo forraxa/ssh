@@ -44,3 +44,8 @@ Y lo pegamos en el servidor
 ```
 nano .ssh/authorized_keys
 ```
+#### Otra manera de copiar el certificado (solo linux, mac)
+Desde terminal
+```
+ssh-copy-id
+```
