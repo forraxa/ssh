@@ -19,3 +19,14 @@ ssh [usuario]@[ip]
 ```
 ssh root@94.237.92.33
 ```
+
+##### Crear y enviar certificado público de tu máquina al servidor para que no te vuelva a pedir la contraseña en el servidor
+Linux, desde terminal:  
+- Creamos el certificado  
+- Copiamos con cat  
+- Se pega en authorized_keys    
+```
+ssh-keygen
+cat .ssh/id_rsa.pub
+nano .ssh/authorized_keys
+```
